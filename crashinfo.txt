@@ -1,0 +1,328 @@
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x004A44F8 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x6363637B	EBX: 0x04573273	ECX: 0x7FFFFFFE	EDX: 0x0019EB0E
+ESI: 0x0019E760	EDI: 0x0019EF3D	EBP: 0x0019E7AC	ESP: 0x0019E720
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019EEF8   0x0019EAF8   0x0457326C   0x77315D7E
++0010: 0x02329C98   0x77315D7E   0x00000000   0x00000007
++0020: 0x00000000   0x0232EEF8   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0019E838
++0040: 0x00000017   0x00000000   0x6363637B   0xFFFFFFFF
++0050: 0x00000000   0x0019E95C   0x004A3AF4   0x004C03A8
++0060: 0xFFFFFFFF   0x0049F61B   0x0049F638   0x00000021
++0070: 0x004A12FC   0x00000021   0x00000001   0x00452193
++0080: 0x004521F6   0x0019E838   0x0232DC20   0x0019E924
++0090: 0x00000000   0x00453627   0x0019E849   0x00000104
++00A0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00B0: 0x004BEFB1   0x00000000   0x00000000   0x000000E8
++00C0: 0x0232DC20   0x0100007F   0x0045A0F5   0x0019E838
++00D0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00E0: 0x0000EFB1   0x00000000   0x0019E9B4   0x77317122
++00F0: 0x77318C0B   0x34F39CD0   0x02320000   0x000000CA
++0100: 0x0019EA50   0x0045545D   0x00000000   0x00000001
++0110: 0x004BAE08   0x02000002   0x00000104   0x25000421
++0120: 0x00000000   0x77000077   0xEE5D1401   0x0C00A08A
++0130: 0x000050C1   0x02000002   0x0019EA04   0x25000421
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\arda\Desktop\rodeiun-pizza\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x77473000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x754D0000 - 0x755C0000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75190000 - 0x753A4000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x767C0000 - 0x76D73000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76340000 - 0x763BB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76120000 - 0x76240000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75690000 - 0x75826000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x767A0000 - 0x767B8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76E60000 - 0x76E83000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x771E0000 - 0x772BC000	(C:\Windows\System32\gdi32full.dll)
+WINMM.dll	A: 0x74290000 - 0x742B8000	(C:\Windows\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x720C0000 - 0x720C8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x77120000 - 0x771DF000	(C:\Windows\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x755D0000 - 0x75633000	(C:\Windows\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x75CF0000 - 0x75DB0000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x760F0000 - 0x76115000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x71110000 - 0x71179000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x71050000 - 0x7110F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+mysql.DLL	A: 0x71F00000 - 0x71F4E000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\mysql.DLL)
+MSVCP140.dll	A: 0x73380000 - 0x733F1000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+libmariadb.dll	A: 0x70F80000 - 0x7104D000	(C:\Users\arda\Desktop\rodeiun-pizza\libmariadb.dll)
+VCRUNTIME140.dll	A: 0x74340000 - 0x74354000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+log-core.dll	A: 0x72050000 - 0x7206A000	(C:\Users\arda\Desktop\rodeiun-pizza\log-core.dll)
+SHLWAPI.dll	A: 0x765E0000 - 0x76625000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76690000 - 0x76791000	(C:\Windows\System32\CRYPT32.dll)
+Secur32.dll	A: 0x74670000 - 0x7467A000	(C:\Windows\SYSTEM32\Secur32.dll)
+ADVAPI32.dll	A: 0x762C0000 - 0x7633A000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x76240000 - 0x762B5000	(C:\Windows\System32\sechost.dll)
+SSPICLI.DLL	A: 0x743C0000 - 0x743E1000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x746F0000 - 0x746FA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74800000 - 0x7480F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x73940000 - 0x73951000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x71C60000 - 0x71C76000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74050000 - 0x74060000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x71C40000 - 0x71C56000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74250000 - 0x74282000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73F10000 - 0x73F62000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x71C80000 - 0x71D12000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75180000 - 0x75187000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x726A0000 - 0x726AE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x71C30000 - 0x71C38000	(C:\Windows\System32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000F000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\sscanf.DLL)
+streamer.DLL	A: 0x70F10000 - 0x70F77000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\streamer.DLL)
+bcrypt.dll	A: 0x75F60000 - 0x75F79000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x76090000 - 0x760ED000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x004A44F8 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x6363637B	EBX: 0x04584273	ECX: 0x7FFFFFFE	EDX: 0x0019EB0E
+ESI: 0x0019E760	EDI: 0x0019EF3D	EBP: 0x0019E7AC	ESP: 0x0019E720
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019EEF8   0x0019EAF8   0x045842B0   0x77315D7E
++0010: 0x02A118A8   0x77315D7E   0x00000000   0x00000007
++0020: 0x00000000   0x029E8BA8   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0019E838
++0040: 0x00000017   0x00000000   0x6363637B   0xFFFFFFFF
++0050: 0x00000000   0x0019E95C   0x004A3AF4   0x004C03A8
++0060: 0xFFFFFFFF   0x0049F61B   0x0049F638   0x00000021
++0070: 0x004A12FC   0x00000021   0x00000001   0x00452193
++0080: 0x004521F6   0x0019E838   0x0241DC20   0x0019E924
++0090: 0x00000000   0x00453627   0x0019E849   0x00000104
++00A0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00B0: 0x0000E9C1   0x00000000   0x00000000   0x000000E8
++00C0: 0x0241DC20   0x0100007F   0x0045A0F5   0x0019E838
++00D0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00E0: 0x0000E9C1   0x00000000   0x00455439   0x0019E838
++00F0: 0x0019E9BC   0x77317122   0x77318C0B   0xABD62E8E
++0100: 0x02410000   0x000000CA   0x0019EA58   0x00000001
++0110: 0x004BAE08   0x0100E9C1   0x00000104   0x02000002
++0120: 0x00000000   0x25000421   0xEE5D1401   0x77000077
++0130: 0x000050C1   0xD215B205   0x0019EA04   0x02000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\arda\Desktop\rodeiun-pizza\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x77473000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x754D0000 - 0x755C0000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75190000 - 0x753A4000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x767C0000 - 0x76D73000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76340000 - 0x763BB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76120000 - 0x76240000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75690000 - 0x75826000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x767A0000 - 0x767B8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76E60000 - 0x76E83000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x771E0000 - 0x772BC000	(C:\Windows\System32\gdi32full.dll)
+WINMM.dll	A: 0x74290000 - 0x742B8000	(C:\Windows\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x720C0000 - 0x720C8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x77120000 - 0x771DF000	(C:\Windows\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x755D0000 - 0x75633000	(C:\Windows\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x75CF0000 - 0x75DB0000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x760F0000 - 0x76115000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x6F990000 - 0x6F9F9000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x6F8D0000 - 0x6F98F000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+mysql.DLL	A: 0x6F880000 - 0x6F8CE000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\mysql.DLL)
+log-core.dll	A: 0x6F860000 - 0x6F87A000	(C:\Users\arda\Desktop\rodeiun-pizza\log-core.dll)
+MSVCP140.dll	A: 0x73380000 - 0x733F1000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+libmariadb.dll	A: 0x6F790000 - 0x6F85D000	(C:\Users\arda\Desktop\rodeiun-pizza\libmariadb.dll)
+VCRUNTIME140.dll	A: 0x74340000 - 0x74354000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+SHLWAPI.dll	A: 0x765E0000 - 0x76625000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76690000 - 0x76791000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x762C0000 - 0x7633A000	(C:\Windows\System32\ADVAPI32.dll)
+Secur32.dll	A: 0x74670000 - 0x7467A000	(C:\Windows\SYSTEM32\Secur32.dll)
+sechost.dll	A: 0x76240000 - 0x762B5000	(C:\Windows\System32\sechost.dll)
+SSPICLI.DLL	A: 0x743C0000 - 0x743E1000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x746F0000 - 0x746FA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74800000 - 0x7480F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x73940000 - 0x73951000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x71C60000 - 0x71C76000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74050000 - 0x74060000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x71C40000 - 0x71C56000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74250000 - 0x74282000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73F10000 - 0x73F62000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x71C80000 - 0x71D12000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75180000 - 0x75187000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x726A0000 - 0x726AE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x71C30000 - 0x71C38000	(C:\Windows\System32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000F000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6F720000 - 0x6F787000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\streamer.DLL)
+bcrypt.dll	A: 0x75F60000 - 0x75F79000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x76090000 - 0x760ED000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x004A44F8 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x6363637B	EBX: 0x045A8F73	ECX: 0x7FFFFFFE	EDX: 0x0019EB0E
+ESI: 0x0019E760	EDI: 0x0019EF3D	EBP: 0x0019E7AC	ESP: 0x0019E720
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019EEF8   0x0019EAF8   0x045A8F98   0x004C03A8
++0010: 0xFFFFFFFF   0x0049F61B   0x0049F638   0x00000007
++0020: 0x00000000   0x00000019   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0019E8D4
++0040: 0x00000017   0x00000000   0x6363637B   0xFFFFFFFF
++0050: 0x00000000   0x00000008   0x00000003   0x0100007F
++0060: 0x0072FA94   0x00000000   0x00000000   0x000000A8
++0070: 0x0072DC20   0x0100007F   0x0045A0F5   0x0019E7E8
++0080: 0x00000001   0x00000008   0x00000003   0x0100007F
++0090: 0x0000FA94   0x00000000   0x00455439   0x0019E7E8
++00A0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00B0: 0x0000FA94   0x0045545D   0x00000000   0x00000001
++00C0: 0x004BAE08   0x0100FA94   0x000000C4   0x00000800
++00D0: 0x00000000   0x0019E7F9   0xEA5D1401   0xD00DA08A
++00E0: 0x0000D000   0xD715B205   0x635463B4   0xD2576354
++00F0: 0x00190003   0x77317122   0x77318C0B   0xD8B96E32
++0100: 0x00720000   0x000000CA   0x0019EA58   0x0019E820
++0110: 0x0019E808   0x02000002   0x006E004F   0x02000002
++0120: 0x006C0062   0x25000421   0x00610043   0x77000077
++0130: 0x00000032   0x6F7C0000   0x0019EA04   0x02000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\arda\Desktop\rodeiun-pizza\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x77473000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x754D0000 - 0x755C0000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75190000 - 0x753A4000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x767C0000 - 0x76D73000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76340000 - 0x763BB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76120000 - 0x76240000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75690000 - 0x75826000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x767A0000 - 0x767B8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76E60000 - 0x76E83000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x771E0000 - 0x772BC000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x720C0000 - 0x720C8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x74290000 - 0x742B8000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x77120000 - 0x771DF000	(C:\Windows\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x755D0000 - 0x75633000	(C:\Windows\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x75CF0000 - 0x75DB0000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x760F0000 - 0x76115000	(C:\Windows\System32\IMM32.DLL)
+MSVCR100.dll	A: 0x6F920000 - 0x6F9DF000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+MSVCP100.dll	A: 0x6F9E0000 - 0x6FA49000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+mysql.DLL	A: 0x70E70000 - 0x70EBE000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\mysql.DLL)
+log-core.dll	A: 0x6F900000 - 0x6F91A000	(C:\Users\arda\Desktop\rodeiun-pizza\log-core.dll)
+MSVCP140.dll	A: 0x73380000 - 0x733F1000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+libmariadb.dll	A: 0x6F830000 - 0x6F8FD000	(C:\Users\arda\Desktop\rodeiun-pizza\libmariadb.dll)
+VCRUNTIME140.dll	A: 0x74340000 - 0x74354000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+SHLWAPI.dll	A: 0x765E0000 - 0x76625000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76690000 - 0x76791000	(C:\Windows\System32\CRYPT32.dll)
+Secur32.dll	A: 0x74670000 - 0x7467A000	(C:\Windows\SYSTEM32\Secur32.dll)
+ADVAPI32.dll	A: 0x762C0000 - 0x7633A000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x76240000 - 0x762B5000	(C:\Windows\System32\sechost.dll)
+SSPICLI.DLL	A: 0x743C0000 - 0x743E1000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x746F0000 - 0x746FA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74800000 - 0x7480F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x73940000 - 0x73951000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x71C60000 - 0x71C76000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74050000 - 0x74060000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x71C40000 - 0x71C56000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74250000 - 0x74282000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73F10000 - 0x73F62000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x71C80000 - 0x71D12000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75180000 - 0x75187000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x726A0000 - 0x726AE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x71C30000 - 0x71C38000	(C:\Windows\System32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000F000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6F7C0000 - 0x6F827000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\streamer.DLL)
+bcrypt.dll	A: 0x75F60000 - 0x75F79000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x76090000 - 0x760ED000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x004A44F8 Module: (samp-server.exe)
+
+Registers:
+EAX: 0x6363637B	EBX: 0x045FAF73	ECX: 0x7FFFFFFE	EDX: 0x0019EB0E
+ESI: 0x0019E760	EDI: 0x0019EF3D	EBP: 0x0019E7AC	ESP: 0x0019E720
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019EEF8   0x0019EAF8   0x045FAFF4   0x004C03A8
++0010: 0xFFFFFFFF   0x0049F61B   0x0049F638   0x00000007
++0020: 0x00000000   0x00000019   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0019E8D4
++0040: 0x00000017   0x00000000   0x6363637B   0xFFFFFFFF
++0050: 0x00000000   0x00000008   0x00000003   0x0100007F
++0060: 0x024CE5FD   0x00000000   0x00000000   0x000000A8
++0070: 0x024CDC20   0x0100007F   0x0045A0F5   0x0019E7E8
++0080: 0x00000001   0x00000008   0x00000003   0x0100007F
++0090: 0x0000E5FD   0x00000000   0x00455439   0x0019E7E8
++00A0: 0x00000001   0x00000008   0x00000003   0x0100007F
++00B0: 0x0000E5FD   0x0045545D   0x00000000   0x00000001
++00C0: 0x004BAE08   0x0100E5FD   0x000000C4   0x00000800
++00D0: 0x00000000   0x0019E7F9   0xEA5D1401   0xD00DA08A
++00E0: 0x0000D000   0xD715B205   0x635463B4   0xD2576354
++00F0: 0x00190003   0x77317122   0x77318C0B   0x492BBEB1
++0100: 0x024C0000   0x000000CA   0x0019EA58   0x0019E820
++0110: 0x0019E808   0x02000002   0x006E004F   0x02000002
++0120: 0x006C0062   0x25000421   0x00610043   0x77000077
++0130: 0x00000032   0x6C370000   0x0019EA04   0x02000002
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\arda\Desktop\rodeiun-pizza\samp-server.exe)
+ntdll.dll	A: 0x772D0000 - 0x77473000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x754D0000 - 0x755C0000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75190000 - 0x753A4000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x767C0000 - 0x76D73000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76340000 - 0x763BB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76120000 - 0x76240000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75690000 - 0x75826000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x767A0000 - 0x767B8000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76E60000 - 0x76E83000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x771E0000 - 0x772BC000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x720C0000 - 0x720C8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x74290000 - 0x742B8000	(C:\Windows\SYSTEM32\WINMM.dll)
+msvcrt.dll	A: 0x77120000 - 0x771DF000	(C:\Windows\System32\msvcrt.dll)
+ws2_32.DLL	A: 0x755D0000 - 0x75633000	(C:\Windows\System32\ws2_32.DLL)
+RPCRT4.dll	A: 0x75CF0000 - 0x75DB0000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x760F0000 - 0x76115000	(C:\Windows\System32\IMM32.DLL)
+MSVCP100.dll	A: 0x6C5E0000 - 0x6C649000	(C:\Windows\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x6C520000 - 0x6C5DF000	(C:\Windows\SYSTEM32\MSVCR100.dll)
+mysql.DLL	A: 0x6C4D0000 - 0x6C51E000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\mysql.DLL)
+log-core.dll	A: 0x6C4B0000 - 0x6C4CA000	(C:\Users\arda\Desktop\rodeiun-pizza\log-core.dll)
+MSVCP140.dll	A: 0x73380000 - 0x733F1000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+VCRUNTIME140.dll	A: 0x74340000 - 0x74354000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+libmariadb.dll	A: 0x6C3E0000 - 0x6C4AD000	(C:\Users\arda\Desktop\rodeiun-pizza\libmariadb.dll)
+SHLWAPI.dll	A: 0x765E0000 - 0x76625000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x76690000 - 0x76791000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x762C0000 - 0x7633A000	(C:\Windows\System32\ADVAPI32.dll)
+Secur32.dll	A: 0x74670000 - 0x7467A000	(C:\Windows\SYSTEM32\Secur32.dll)
+sechost.dll	A: 0x76240000 - 0x762B5000	(C:\Windows\System32\sechost.dll)
+SSPICLI.DLL	A: 0x743C0000 - 0x743E1000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x746F0000 - 0x746FA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74800000 - 0x7480F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x73940000 - 0x73951000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x71C60000 - 0x71C76000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x74050000 - 0x74060000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x71C40000 - 0x71C56000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74250000 - 0x74282000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73F10000 - 0x73F62000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x71C80000 - 0x71D12000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75180000 - 0x75187000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x726A0000 - 0x726AE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x71C30000 - 0x71C38000	(C:\Windows\System32\rasadhlp.dll)
+sscanf.DLL	A: 0x10000000 - 0x1000F000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\sscanf.DLL)
+streamer.DLL	A: 0x6C370000 - 0x6C3D7000	(C:\Users\arda\Desktop\rodeiun-pizza\plugins\streamer.DLL)
+bcrypt.dll	A: 0x75F60000 - 0x75F79000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x76090000 - 0x760ED000	(C:\Windows\System32\bcryptPrimitives.dll)
